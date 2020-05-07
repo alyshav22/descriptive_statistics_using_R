@@ -1,0 +1,84 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# Week 4 Assignment 2
+## by Alysha Velasquez
+
+**Binomial**
+
+```{r}
+binomial <- read.csv("~/Desktop/R-Week4/Binomial.csv")
+mean(binomial[,1])
+var(binomial[,1])
+sd(binomial[,1])
+summary(binomial)
+hist(binomial[,1])
+boxplot(binomial)
+```
+
+**BN1**
+
+```{r}
+bn1 <- read.csv("~/Desktop/R-Week4/bn1.csv")
+mean(bn1[,1])
+var(bn1)
+sd(bn1[,1])
+summary(bn1)
+hist(bn1[,1])
+boxplot(bn1)
+```
+
+**BN2**
+
+```{r}
+bn2 <- read.csv("~/Desktop/R-Week4/BN2.csv")
+mean(bn2[,1])
+var(bn2[,1])
+sd(bn2[,1])
+summary(bn2)
+hist(bn2[,1])
+boxplot(bn2)
+```
+
+**In**
+
+```{r}
+In <- read.csv("~/Desktop/R-Week4/IN.csv")
+mean(In[,1])
+var(In[,1])
+sd(In[,1])
+summary(In)
+hist(In[,1])
+boxplot(In)
+```
+
+**N1**
+
+```{r}
+N1 <- read.csv("~/Desktop/R-Week4/N1.csv")
+mean(N1[,1])
+var(N1[,1])
+sd(N1[,1])
+summary(N1)
+hist(N1[,1])
+boxplot(N1)
+```
+
+**N2**
+
+```{r}
+N2 <- read.csv("~/Desktop/R-Week4/N2.csv")
+mean(N2[,1])
+var(N2[,1])
+sd(N2[,1])
+summary(N2)
+hist(N2[,1])
+boxplot(N2)
+```
+
+# End
+
+
+
